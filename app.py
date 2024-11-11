@@ -64,7 +64,7 @@ if api_key:
 # Pie de página con información del desarrollador y logos de redes sociales
 st.markdown("""
 ---
-**Desarrollador:** Edwin Quintero Alzate<br>
+**Developer:** Edwin Quintero Alzate<br>
 **Email:** egqa1975@gmail.com<br>
 """)
 
