@@ -22,10 +22,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("Generador de Imágenes DALL-E 3")
+st.title("DALL-E 3 Image Generator")
 
 # Solicitar la clave API al usuario
-api_key = st.text_input("Introduce tu clave API de OpenAI", type="password")
+api_key = st.text_input("Enter your OpenAI API key", type="password")
 
 if api_key:
     openai.api_key = api_key
