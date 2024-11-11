@@ -6,7 +6,7 @@ import requests
 from st_social_media_links import SocialMediaIcons
 
 # Cargar la imagen desde una URL
-image_url = "https://media.licdn.com/dms/image/v2/C5612AQFVb6K_9Q6HSw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1632878983190?e=2147483647&v=beta&t=YCtJyzQ2iEz1vDBKYQR9pqGUR70WilMcJioicVtViSY"  # Reemplaza con la URL de tu imagen
+image_url = "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2024/09/open-ai-dall-e-3-logo-on-futuristic-dark-blue-wave-abstract-background.jpg?q=70&fit=crop&w=1100&h=618&dpr=1"  # Reemplaza con la URL de tu imagen
 st.markdown(
     f"""
     <style>
