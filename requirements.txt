@@ -2,3 +2,4 @@ streamlit
 st_social_media_links
 openai
 google-genai
+python-dotenv
