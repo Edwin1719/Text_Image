@@ -55,7 +55,7 @@ if mode == "Editar":
             with st.spinner("Procesando…"):
                 resp = client.models.generate_content(
                     model="gemini-2.0-flash-exp",
-                    contents=prompt,
+                    contents=[prompt, Image.open(selected)],
                     config=types.GenerateContentConfig(response_modalities=["IMAGE"])
                 )
             mostrar_y_descargar(resp.candidates[0].content.parts, "Editada")
