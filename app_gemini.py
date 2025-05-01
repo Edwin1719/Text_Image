@@ -54,8 +54,8 @@ if mode == "Editar":
         if st.button("🖼️ Generar edición"):
             with st.spinner("Procesando…"):
                 resp = client.models.generate_content(
-                    model="gemini-2.0-flash-exp-image-generation",
-                    contents=[prompt, Image.open(selected)],
+                    model="gemini-2.0-flash-exp",
+                    contents=prompt,
                     config=types.GenerateContentConfig(response_modalities=["IMAGE"])
                 )
             mostrar_y_descargar(resp.candidates[0].content.parts, "Editada")
@@ -66,7 +66,7 @@ else:
     if st.button("🖼️ Generar imagen"):
         with st.spinner("Generando…"):
             resp = client.models.generate_content(
-                model="gemini-2.0-flash-exp-image-generation",
+                model="gemini-2.0-flash-exp",
                 contents=prompt,
                 config=types.GenerateContentConfig(response_modalities=["IMAGE"])
             )
