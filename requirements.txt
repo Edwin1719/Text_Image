@@ -1,4 +1,0 @@
-streamlit
-st_social_media_links
-google-genai
-pillow
