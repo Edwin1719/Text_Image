@@ -1,5 +1,3 @@
-![texto del vínculo](https://img.freepik.com/fotos-premium/retrato-ai-generando-banner-concepto-tecnologia-futura-contenido_310913-1658.jpg)
-
 # 🖌️ Text_Image_Gemini
 
 Una aplicación web sencilla y potente para generar y editar imágenes usando Google Gemini 2.0 Flash, construida con Streamlit.
